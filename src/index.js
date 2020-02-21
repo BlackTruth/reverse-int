@@ -1,3 +1,7 @@
-module.exports = function reverse (n) {
-  
-}
+module.exports = function reverse(n) {
+    return (n + "")
+        .replace("-", "")
+        .split("")
+        .reverse()
+        .join("");
+};
